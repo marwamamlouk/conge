@@ -1,0 +1,14 @@
+h2{
+    color: darkcyan;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    border: 3px solid darkcyan;
+}
+
+

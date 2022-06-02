@@ -1,0 +1,123 @@
+.justify-center{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-block{
+    width: 400px;
+    border: 2px solid black;
+    height: max-content;
+}
+.login-block .login-card-body{
+    padding: 0px;
+}
+.login-header{
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+}
+
+.nav-link{
+    color: #063661 !important;
+}
+
+.active{
+    color: white !important;
+    background-color: #063661 !important;
+}
+
+.nav-link::focus{
+    background-color: aquamarine !important;
+}
+
+.brand-link{
+    background-color: #063661 !important;
+}
+.print-icon{
+    color: cadetblue;
+    transform: scale(2);
+    margin-right: 50px;
+    transition: color 0.5s;
+}
+.add-icon{
+    color: cadetblue;
+    transform: scale(2);
+    transition: color 0.5s;
+}
+.print-icon:hover, .add-icon:hover{
+    color: rgb(41, 123, 126);
+}
+
+.droit{
+    border: 5px solid black;
+    height: 500px;
+    background: white;
+    border-radius: 0px;
+    overflow: hidden;
+}
+.droit:hover{
+    overflow-y: scroll;
+}
+.droit::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+.droit::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+.droit::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #888; 
+    position:fixed;
+    right: 10px;
+
+  }
+  
+  /* Handle on hover */
+  .droit::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.titre h2{
+    color: #17a2b8;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    background: #b0e1e8;
+    
+    padding: 20px 0px 20px 0px;
+}
+
+.chapiter-title{
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 5px black;
+}
+.section{
+    margin-top: 47px;
+    margin-left: 35px;
+    color: #161617;
+    font-family: cursive;
+    font-weight: 700;
+}
+.article{
+    margin-left: 35px;
+    font-family: fantasy;
+}
+
+.content{
+    margin-left: 35px;
+    margin-right: 35px;
+    line-height: 32px;
+    font-family: monospace;
+    font-weight: 800;
+    color: #353535;
+    font-size: 1.15rem;
+    letter-spacing: 0.8px;
+}

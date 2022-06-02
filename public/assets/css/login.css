@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.login-block{
+	box-shadow: 0px 0px 5px black;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px; 
+}
+.header-login{
+	height: 100px;
+	background: #57b847;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	text-align: center;
+}
+.header-login h2{
+	line-height: 100px;
+	color: white
+}
+
+.input-type{
+	width: 80%;
+	position: relative;
+	left: 10%;
+	background: #ebebeb;
+	border-radius: 30px;
+	height: 50px;
+}
+.signup{
+	color: green;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+a.signup:link{
+	color: green;
+}
+a.signup:hover{
+	color: green;
+}
+
+.no-account{
+	color: gray;
+}
+.signin{
+	background: #57b847;
+	border: #57b847;
+	text-transform: uppercase;
+	font-weight: 500;
+	width: 80%;
+	height: 50px;
+	border-radius: 30px;
+	position: relative;
+	left: 10%;
+}
+.signin:hover{
+	background: #229010;
+}
+.signin:focus{
+	background: #229010 !important;
+	border:  #229010 !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+::placeholder{
+	color: black !important;
+	font-weight: bold;
+}
+textarea{
+	resize: none;
+}
+/* Profile design  */
+.profile{
+	background: #57b847 !important;
+}
+.profile h2{
+	color: white;
+	text-align: center;
+}
+.image{
+	border-radius: 50%;
+	border: 5px solid #e7efe6;
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	/*position: relative;
+	left: 50%;
+	transform: translateX(-50%);*/
+
+}
